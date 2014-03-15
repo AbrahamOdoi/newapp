@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79e72d06-446b-480f-b084-99b26bdfac67}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppStudio</RootNamespace>
+    <AssemblyName>AppStudio</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <!--<PackageCertificateKeyFile>Properties\App_TemporaryKey.pfx</PackageCertificateKeyFile>-->
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="Properties\Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\DataTemplates\WhoWeAreView.xaml" />
+    <Content Include="Views\DataTemplates\OurAlbumView.xaml" />
+    <Content Include="Views\DataTemplates\ActivitiesView.xaml" />
+    <Content Include="Views\DataTemplates\MomentsView.xaml" />
+    <Content Include="Views\DataTemplates\WhoWeAreViewDetail.xaml" />
+    <Content Include="Views\DataTemplates\InfoView.xaml" />
+    <Content Include="Views\DataTemplates\OurAlbumViewDetail.xaml" />
+    <Content Include="Views\DataTemplates\ActivitiesViewDetail.xaml" />
+    <Content Include="Views\DataTemplates\MomentsViewDetail.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\NoImage.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\DataImages\logo.png" />
+    <Content Include="..\Shared\Assets\DataImages\Item-35b54109-0ebc-4499-8c16-d5cfe932d446.jpg">
+      <Link>Assets\DataImages\Item-35b54109-0ebc-4499-8c16-d5cfe932d446.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-6f3dd35c-634f-4418-bf9b-4cfdae64639d.jpg">
+      <Link>Assets\DataImages\Item-6f3dd35c-634f-4418-bf9b-4cfdae64639d.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-f15fca6e-45e7-4688-b3f0-343a1e62a008.jpg">
+      <Link>Assets\DataImages\Item-f15fca6e-45e7-4688-b3f0-343a1e62a008.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-33c9807a-388d-4dd0-b11c-88dd3614fbf7.jpg">
+      <Link>Assets\DataImages\Item-33c9807a-388d-4dd0-b11c-88dd3614fbf7.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-298e1435-a172-4fc6-b5f0-c2a1108f6c7d.png">
+      <Link>Assets\DataImages\Item-298e1435-a172-4fc6-b5f0-c2a1108f6c7d.png</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\mee.jpg">
+      <Link>Assets\DataImages\mee.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\avatar.jpg">
+      <Link>Assets\DataImages\avatar.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\img-20130928-wa0001.jpg">
+      <Link>Assets\DataImages\img-20130928-wa0001.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-b34ca868-1b36-4137-883b-d9796fe6e71c.jpg">
+      <Link>Assets\DataImages\Item-b34ca868-1b36-4137-883b-d9796fe6e71c.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-c08e3fa7-a8e6-4df3-9e47-fa59b19cbeee.png">
+      <Link>Assets\DataImages\Item-c08e3fa7-a8e6-4df3-9e47-fa59b19cbeee.png</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-b1b68a15-f6bf-4484-852e-45556c09d24d.png">
+      <Link>Assets\DataImages\Item-b1b68a15-f6bf-4484-852e-45556c09d24d.png</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-cce977a6-4ed9-4f5a-962d-ef6744c252f2.jpg">
+      <Link>Assets\DataImages\Item-cce977a6-4ed9-4f5a-962d-ef6744c252f2.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-369ada88-95bc-45fd-87e7-072c0c1b9895.jpg">
+      <Link>Assets\DataImages\Item-369ada88-95bc-45fd-87e7-072c0c1b9895.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-97cbd8f5-e51b-488d-87f5-2ec1c2113576.png">
+      <Link>Assets\DataImages\Item-97cbd8f5-e51b-488d-87f5-2ec1c2113576.png</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-da4a233c-de00-4751-9e4e-4b328a7eccbc.jpg">
+      <Link>Assets\DataImages\Item-da4a233c-de00-4751-9e4e-4b328a7eccbc.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-61065a44-b454-4ac1-ad1a-09ba1af68d5e.jpg">
+      <Link>Assets\DataImages\Item-61065a44-b454-4ac1-ad1a-09ba1af68d5e.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-aa742bc1-41fc-424a-93e9-d662b14494e5.jpg">
+      <Link>Assets\DataImages\Item-aa742bc1-41fc-424a-93e9-d662b14494e5.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-0b81ffa4-9f64-4d9b-a44c-9700f77803b9.jpg">
+      <Link>Assets\DataImages\Item-0b81ffa4-9f64-4d9b-a44c-9700f77803b9.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-8d70bc51-c21d-4277-ac31-52885eb297e4.jpg">
+      <Link>Assets\DataImages\Item-8d70bc51-c21d-4277-ac31-52885eb297e4.jpg</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-d3dd18d8-4943-4430-b4d5-8da798fd6f8e.png">
+      <Link>Assets\DataImages\Item-d3dd18d8-4943-4430-b4d5-8da798fd6f8e.png</Link>
+    </Content>
+    <Content Include="..\Shared\Assets\DataImages\Item-4c56d560-b178-4c22-8ea7-26fcc1ca3738.png">
+      <Link>Assets\DataImages\Item-4c56d560-b178-4c22-8ea7-26fcc1ca3738.png</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\NavigationHelper.cs" />
+    <Compile Include="Common\RelayCommand.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="Common\ViewModelBase.cs" />
+    <Compile Include="Converters\TextPlainConverter.cs" />
+    <Compile Include="Converters\ThumbnailConverter.cs" />
+    <Compile Include="Services\NotImplementedServices.cs" />
+    <Compile Include="Services\NavigationServices.cs" />
+    <Compile Include="ViewModels\WhoWeAreViewModel.cs" />
+    <Compile Include="ViewModels\OurAlbumViewModel.cs" />
+    <Compile Include="ViewModels\ActivitiesViewModel.cs" />
+    <Compile Include="ViewModels\MomentsViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\WebControl.xaml.cs">
+      <DependentUpon>WebControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WhoWeAreViewDetail.xaml.cs">
+      <DependentUpon>WhoWeAreViewDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OurAlbumViewDetail.xaml.cs">
+      <DependentUpon>OurAlbumViewDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ActivitiesViewDetail.xaml.cs">
+      <DependentUpon>ActivitiesViewDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MomentsViewDetail.xaml.cs">
+      <DependentUpon>MomentsViewDetail.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="Controls\WebControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WhoWeAreViewDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OurAlbumViewDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ActivitiesViewDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MomentsViewDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+        <Page Include="Styles\StandardStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\AppStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+      <PRIResource Include="Strings\en-US\Resources.resw">
+        <SubType>Designer</SubType>
+      </PRIResource>
+    </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\netcore45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppStudio.Store.Data\AppStudio.Store.Data.csproj">
+      <Project>{f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}</Project>
+      <Name>AppStudio.Store.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

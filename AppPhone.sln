@@ -1,0 +1,237 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStudio.Phone.UI", "AppStudio.Phone.UI\AppStudio.Phone.UI.csproj", "{2bb70691-b902-4986-b5e4-f8ff9e1ad836}"
+EndProject
+
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStudio.Phone.Data", "AppStudio.Phone.Data\AppStudio.Phone.Data.csproj", "{95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}"
+EndProject
+
+    
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{e40c5400-c88b-4bb5-af0a-3ad00b9161f3}"
+            
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+            
+EndProject
+    
+    
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{e282d643-77fc-418d-acad-5076e82e8dcf}"
+            
+	ProjectSection(SolutionItems) = preProject
+		Lib\WPAppStudio.Shared2.dll = Lib\WPAppStudio.Shared2.dll
+	EndProjectSection
+            
+EndProject
+    
+    
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataImages", "DataImages", "{e91b4473-be6b-4768-b12f-872f5ecb1261}"
+            
+	ProjectSection(SolutionItems) = preProject
+		Shared\Assets\DataImages\Item-35b54109-0ebc-4499-8c16-d5cfe932d446.jpg = Shared\Assets\DataImages\Item-35b54109-0ebc-4499-8c16-d5cfe932d446.jpg
+		Shared\Assets\DataImages\Item-6f3dd35c-634f-4418-bf9b-4cfdae64639d.jpg = Shared\Assets\DataImages\Item-6f3dd35c-634f-4418-bf9b-4cfdae64639d.jpg
+		Shared\Assets\DataImages\Item-f15fca6e-45e7-4688-b3f0-343a1e62a008.jpg = Shared\Assets\DataImages\Item-f15fca6e-45e7-4688-b3f0-343a1e62a008.jpg
+		Shared\Assets\DataImages\Item-33c9807a-388d-4dd0-b11c-88dd3614fbf7.jpg = Shared\Assets\DataImages\Item-33c9807a-388d-4dd0-b11c-88dd3614fbf7.jpg
+		Shared\Assets\DataImages\Item-298e1435-a172-4fc6-b5f0-c2a1108f6c7d.png = Shared\Assets\DataImages\Item-298e1435-a172-4fc6-b5f0-c2a1108f6c7d.png
+		Shared\Assets\DataImages\mee.jpg = Shared\Assets\DataImages\mee.jpg
+		Shared\Assets\DataImages\avatar.jpg = Shared\Assets\DataImages\avatar.jpg
+		Shared\Assets\DataImages\img-20130928-wa0001.jpg = Shared\Assets\DataImages\img-20130928-wa0001.jpg
+		Shared\Assets\DataImages\Item-b34ca868-1b36-4137-883b-d9796fe6e71c.jpg = Shared\Assets\DataImages\Item-b34ca868-1b36-4137-883b-d9796fe6e71c.jpg
+		Shared\Assets\DataImages\Item-c08e3fa7-a8e6-4df3-9e47-fa59b19cbeee.png = Shared\Assets\DataImages\Item-c08e3fa7-a8e6-4df3-9e47-fa59b19cbeee.png
+		Shared\Assets\DataImages\Item-b1b68a15-f6bf-4484-852e-45556c09d24d.png = Shared\Assets\DataImages\Item-b1b68a15-f6bf-4484-852e-45556c09d24d.png
+		Shared\Assets\DataImages\Item-cce977a6-4ed9-4f5a-962d-ef6744c252f2.jpg = Shared\Assets\DataImages\Item-cce977a6-4ed9-4f5a-962d-ef6744c252f2.jpg
+		Shared\Assets\DataImages\Item-369ada88-95bc-45fd-87e7-072c0c1b9895.jpg = Shared\Assets\DataImages\Item-369ada88-95bc-45fd-87e7-072c0c1b9895.jpg
+		Shared\Assets\DataImages\Item-97cbd8f5-e51b-488d-87f5-2ec1c2113576.png = Shared\Assets\DataImages\Item-97cbd8f5-e51b-488d-87f5-2ec1c2113576.png
+		Shared\Assets\DataImages\Item-da4a233c-de00-4751-9e4e-4b328a7eccbc.jpg = Shared\Assets\DataImages\Item-da4a233c-de00-4751-9e4e-4b328a7eccbc.jpg
+		Shared\Assets\DataImages\Item-61065a44-b454-4ac1-ad1a-09ba1af68d5e.jpg = Shared\Assets\DataImages\Item-61065a44-b454-4ac1-ad1a-09ba1af68d5e.jpg
+		Shared\Assets\DataImages\Item-aa742bc1-41fc-424a-93e9-d662b14494e5.jpg = Shared\Assets\DataImages\Item-aa742bc1-41fc-424a-93e9-d662b14494e5.jpg
+		Shared\Assets\DataImages\Item-0b81ffa4-9f64-4d9b-a44c-9700f77803b9.jpg = Shared\Assets\DataImages\Item-0b81ffa4-9f64-4d9b-a44c-9700f77803b9.jpg
+		Shared\Assets\DataImages\Item-8d70bc51-c21d-4277-ac31-52885eb297e4.jpg = Shared\Assets\DataImages\Item-8d70bc51-c21d-4277-ac31-52885eb297e4.jpg
+		Shared\Assets\DataImages\Item-d3dd18d8-4943-4430-b4d5-8da798fd6f8e.png = Shared\Assets\DataImages\Item-d3dd18d8-4943-4430-b4d5-8da798fd6f8e.png
+		Shared\Assets\DataImages\Item-4c56d560-b178-4c22-8ea7-26fcc1ca3738.png = Shared\Assets\DataImages\Item-4c56d560-b178-4c22-8ea7-26fcc1ca3738.png
+	EndProjectSection
+            
+EndProject
+    
+    
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{90d89fd9-41db-4ec8-8171-0e39b7fbdfce}"
+            
+	ProjectSection(SolutionItems) = preProject
+		Shared\Assets\DataImages = Shared\Assets\DataImages
+		Shared\Assets\NoImage.png = Shared\Assets\NoImage.png
+	EndProjectSection
+            
+EndProject
+    
+    
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{61f749cf-bc2b-4073-9efe-0591c9063f69}"
+            
+	ProjectSection(SolutionItems) = preProject
+		Shared\Common\BindableBase.cs = Shared\Common\BindableBase.cs
+		Shared\Common\BindableSchemaBase.cs = Shared\Common\BindableSchemaBase.cs
+		Shared\Common\IDataSource.cs = Shared\Common\IDataSource.cs
+		Shared\Common\RssHelper.cs = Shared\Common\RssHelper.cs
+		Shared\Common\Utility.cs = Shared\Common\Utility.cs
+		Shared\Common\ViewModelBase.cs = Shared\Common\ViewModelBase.cs
+	EndProjectSection
+            
+EndProject
+    
+    
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSchemas", "DataSchemas", "{db938a0d-dd83-4953-a6b0-e5fa67a9e21a}"
+            
+	ProjectSection(SolutionItems) = preProject
+		Shared\DataSchemas\BingSchema.cs = Shared\DataSchemas\BingSchema.cs
+		Shared\DataSchemas\FlickrSchema.cs = Shared\DataSchemas\FlickrSchema.cs
+		Shared\DataSchemas\HtmlSchema.cs = Shared\DataSchemas\HtmlSchema.cs
+		Shared\DataSchemas\MenuSchema.cs = Shared\DataSchemas\MenuSchema.cs
+		Shared\DataSchemas\RssSchema.cs = Shared\DataSchemas\RssSchema.cs
+		Shared\DataSchemas\YouTubeSchema.cs = Shared\DataSchemas\YouTubeSchema.cs
+		Shared\DataSchemas\WhoWeAreSchema.cs = Shared\DataSchemas\WhoWeAreSchema.cs
+		Shared\DataSchemas\OurAlbumSchema.cs = Shared\DataSchemas\OurAlbumSchema.cs
+		Shared\DataSchemas\ActivitiesSchema.cs = Shared\DataSchemas\ActivitiesSchema.cs
+		Shared\DataSchemas\MomentsSchema.cs = Shared\DataSchemas\MomentsSchema.cs
+	EndProjectSection
+            
+EndProject
+    
+    
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataSources", "DataSources", "{b64ea40c-d648-4b66-9f43-9e9e0bb74c9e}"
+            
+	ProjectSection(SolutionItems) = preProject
+		Shared\DataSources\WhoWeAreDataSource.cs = Shared\DataSources\WhoWeAreDataSource.cs
+		Shared\DataSources\OurAlbumDataSource.cs = Shared\DataSources\OurAlbumDataSource.cs
+		Shared\DataSources\ActivitiesDataSource.cs = Shared\DataSources\ActivitiesDataSource.cs
+		Shared\DataSources\MomentsDataSource.cs = Shared\DataSources\MomentsDataSource.cs
+	EndProjectSection
+            
+EndProject
+    
+    
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{52fad5ef-5501-4d95-9031-7bc94744117d}"
+            
+	ProjectSection(SolutionItems) = preProject
+		Shared\Assets = Shared\Assets
+		Shared\Common = Shared\Common
+		Shared\DataSchemas = Shared\DataSchemas
+		Shared\DataSources = Shared\DataSources
+	EndProjectSection
+            
+EndProject
+    
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|ARM.ActiveCfg = Debug|ARM
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|ARM.Build.0 = Debug|ARM
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|ARM.Deploy.0 = Debug|ARM
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|x86.ActiveCfg = Debug|x86
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|x86.Build.0 = Debug|x86
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Debug|x86.Deploy.0 = Debug|x86
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|Any CPU.Build.0 = Release|Any CPU
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|Any CPU.Deploy.0 = Release|Any CPU
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|ARM.ActiveCfg = Release|ARM
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|ARM.Build.0 = Release|ARM
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|ARM.Deploy.0 = Release|ARM
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|x86.ActiveCfg = Release|x86
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|x86.Build.0 = Release|x86
+        {95f6e32b-82e1-463f-a8f0-e6b793e2f2cd}.Release|x86.Deploy.0 = Release|x86
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|ARM.ActiveCfg = Debug|ARM
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|ARM.Build.0 = Debug|ARM
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|ARM.Deploy.0 = Debug|ARM
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|x86.ActiveCfg = Debug|x86
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|x86.Build.0 = Debug|x86
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Debug|x86.Deploy.0 = Debug|x86
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|Any CPU.Build.0 = Release|Any CPU
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|Any CPU.Deploy.0 = Release|Any CPU
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|ARM.ActiveCfg = Release|ARM
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|ARM.Build.0 = Release|ARM
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|ARM.Deploy.0 = Release|ARM
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|x86.ActiveCfg = Release|x86
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|x86.Build.0 = Release|x86
+        {2bb70691-b902-4986-b5e4-f8ff9e1ad836}.Release|x86.Deploy.0 = Release|x86
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|ARM.ActiveCfg = Debug|ARM
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|ARM.Build.0 = Debug|ARM
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|ARM.Deploy.0 = Debug|ARM
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|x86.ActiveCfg = Debug|x86
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|x86.Build.0 = Debug|x86
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Debug|x86.Deploy.0 = Debug|x86
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|Any CPU.Build.0 = Release|Any CPU
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|Any CPU.Deploy.0 = Release|Any CPU
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|ARM.ActiveCfg = Release|ARM
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|ARM.Build.0 = Release|ARM
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|ARM.Deploy.0 = Release|ARM
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|x86.ActiveCfg = Release|x86
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|x86.Build.0 = Release|x86
+        {bf340c21-a58f-415a-b3e8-8ee58e5da1fa}.Release|x86.Deploy.0 = Release|x86
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|ARM.ActiveCfg = Debug|ARM
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|ARM.Build.0 = Debug|ARM
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|ARM.Deploy.0 = Debug|ARM
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|x86.ActiveCfg = Debug|x86
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|x86.Build.0 = Debug|x86
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Debug|x86.Deploy.0 = Debug|x86
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|Any CPU.Build.0 = Release|Any CPU
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|Any CPU.Deploy.0 = Release|Any CPU
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|ARM.ActiveCfg = Release|ARM
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|ARM.Build.0 = Release|ARM
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|ARM.Deploy.0 = Release|ARM
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|x86.ActiveCfg = Release|x86
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|x86.Build.0 = Release|x86
+        {f21ca0bb-d52b-4ed4-bcf7-68f6680bdb66}.Release|x86.Deploy.0 = Release|x86
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|ARM.ActiveCfg = Debug|ARM
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|ARM.Build.0 = Debug|ARM
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|ARM.Deploy.0 = Debug|ARM
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|x86.ActiveCfg = Debug|x86
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|x86.Build.0 = Debug|x86
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Debug|x86.Deploy.0 = Debug|x86
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|Any CPU.Build.0 = Release|Any CPU
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|Any CPU.Deploy.0 = Release|Any CPU
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|ARM.ActiveCfg = Release|ARM
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|ARM.Build.0 = Release|ARM
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|ARM.Deploy.0 = Release|ARM
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|x86.ActiveCfg = Release|x86
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|x86.Build.0 = Release|x86
+        {79e72d06-446b-480f-b084-99b26bdfac67}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{e91b4473-be6b-4768-b12f-872f5ecb1261} = {90d89fd9-41db-4ec8-8171-0e39b7fbdfce}
+		{90d89fd9-41db-4ec8-8171-0e39b7fbdfce} = {52fad5ef-5501-4d95-9031-7bc94744117d}
+		{61f749cf-bc2b-4073-9efe-0591c9063f69} = {52fad5ef-5501-4d95-9031-7bc94744117d}
+		{db938a0d-dd83-4953-a6b0-e5fa67a9e21a} = {52fad5ef-5501-4d95-9031-7bc94744117d}
+		{b64ea40c-d648-4b66-9f43-9e9e0bb74c9e} = {52fad5ef-5501-4d95-9031-7bc94744117d}
+	EndGlobalSection
+EndGlobal

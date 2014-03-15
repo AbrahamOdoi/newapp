@@ -1,0 +1,42 @@
+<Page
+    x:Name="pageRoot"
+    x:Class="AppStudio.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppStudio"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Foreground="{StaticResource AppForegroundColor}"
+    mc:Ignorable="d">
+
+  <Grid Background="{StaticResource AppBackgroundColor}">
+    <Grid.ChildrenTransitions>
+      <TransitionCollection>
+        <EntranceThemeTransition/>
+      </TransitionCollection>
+    </Grid.ChildrenTransitions>
+
+    <Hub Background="{StaticResource AppBackground}">
+      <Hub.Header>
+        <!-- Back button and page title -->
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+          <Image Margin="0,-18" Source="{StaticResource AppLogoImage}"></Image>
+          <TextBlock x:Name="pageTitle" Margin="10,0" Text="{StaticResource AppTitle}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1"
+              VerticalAlignment="Top" IsHitTestVisible="false" TextWrapping="NoWrap" />
+        </Grid>
+      </Hub.Header>
+
+      <HubSection Width="600" Header="who we are" DataContext="{Binding WhoWeAreViewModel}" ContentTemplate="{StaticResource WhoWeAreView}" HeaderTemplate="{StaticResource AppHubHeader}"/>
+      <HubSection Width="600" Header="Our album" DataContext="{Binding OurAlbumViewModel}" ContentTemplate="{StaticResource OurAlbumView}" HeaderTemplate="{StaticResource AppHubHeader}"/>
+      <HubSection Width="600" Header="activities" DataContext="{Binding ActivitiesViewModel}" ContentTemplate="{StaticResource ActivitiesView}" HeaderTemplate="{StaticResource AppHubHeader}"/>
+      <HubSection Width="600" Header="moments" DataContext="{Binding MomentsViewModel}" ContentTemplate="{StaticResource MomentsView}" HeaderTemplate="{StaticResource AppHubHeader}"/>
+    </Hub>
+
+    <ProgressBar Margin="8" Name="progressBar" VerticalAlignment="Top" IsIndeterminate="True"/>
+  </Grid>
+
+</Page>

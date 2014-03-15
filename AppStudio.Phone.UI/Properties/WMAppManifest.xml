@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US"/>
+  <App xmlns="" ProductID="{355b34f9-4113-4fe3-b792-69465566ad21}" Title="NALO Family" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="Windows Phone AppStudio" Description="Still carrying pictures of your family in your wallet? Modernize your family photo collection using this template to build an app all about your family. Include pictures and stories from your favorite family moments, recent trips or activities, and even s" Publisher="Windows Phone AppStudio" PublisherID="{4a71864e-e81e-45ae-b2a0-801765ba2f0e}">
+    <IconPath IsRelative="true" IsResource="false">Assets/Tiles/logo.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_SPEECH_RECOGNITION" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_LOCATION" />
+      <Capability Name="ID_CAP_PROXIMITY" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_MAP" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask  Name ="_default" NavigationPage="Views/MainPage.xaml" ActivationPolicy="Resume"/>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="AppStudio.Phone.UIToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets/Tiles/logonalo.png</SmallImageURI>
+          <Count></Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets/Tiles/mee.png</BackgroundImageURI>
+          <Title>NALO Family</Title>
+          <BackContent>Who we are</BackContent>
+          <BackBackgroundImageURI>Assets/Tiles/logo-1.png</BackBackgroundImageURI>
+          <BackTitle>NALO Family</BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">Assets/Tiles/mee.png</LargeBackgroundImageURI>
+          <LargeBackContent></LargeBackContent>
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">Assets/Tiles/logo-1.png</LargeBackBackgroundImageURI>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"/>
+          <HasLarge>True</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <Extension ExtensionName="LockScreen_Notification_IconCount" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="LockScreen_Notification_TextField" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="LockScreen_Background" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+    </Extensions>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA"/>
+      <ScreenResolution Name="ID_RESOLUTION_WXGA"/>
+      <ScreenResolution Name="ID_RESOLUTION_HD720P"/>
+    </ScreenResolutions>
+  </App>
+</Deployment>
